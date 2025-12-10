@@ -19,6 +19,8 @@
 ![Imagen_Enlace_VSCode7](screenshots/VSCode_enlace.png) 
 ![Imagen_Enlace_VSCode6](screenshots/VSCode_SistemaOperativo.png)
 ![Imagen_Enlace_VSCode0](screenshots/VSCode_Archivo.png)
+
+
 **Proceso de instalación:**
 - **Descarga:** En cuanto tengamos el archivo de descarga le seleccionamos y abrimos el instalador
 - **Opciones del instalador:** Lo primero que tenemos que aceptar es la licencia y le damos a "Next", luego seleccionar la carpeta de destino que puedes dejar la ubicación predeterminada o seleccionar una carpeta diferente donde quieras instalar VS Code. Haz clic en "Next", luego seleccionamos los componentes que queremos agregar en este caso agregamos el path y crear un acceso directo en el escritorio.

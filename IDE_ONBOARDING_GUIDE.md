@@ -33,7 +33,6 @@ Agregar al PATH: Esto permite abrir VS Code desde la línea de comandos.Ahora da
 
 ![Imagen_Enlace_VSCode4](screenshots/VSCode_Terminos4.png)
 
-![Imagen_Enlace_VSCode5](screenshots/VSCode_Terminos5.png)
 
 ---
 
@@ -45,7 +44,7 @@ Haz clic en File > Open Folder (o presiona Ctrl + K, Ctrl + O)
 Navega hasta la carpeta de tu proyecto
 Selecciona la carpeta y haz clic en "Seleccionar carpeta"
 
-(/screenshots/VSBarralateral.png)
+![Imagen_Enlace_VSCode7](screenshots/VSBarralateral.png)
 
 **Crear un nuevo archivo**:
 
@@ -91,7 +90,7 @@ Usa las flechas del teclado para previsualizar cada tema en tiempo real
 Selecciona "One Dark Pro" o "Material Theme" (recomendados)
 Presiona Enter para aplicar el tema
 
-(/screenshots/temas_Completos.png)
+![Imagen_Enlace_VSCode8](screenshots/temas_Completos.png)
 
 **Resultado final**:
 
@@ -118,7 +117,7 @@ Busca "font ligatures" y marca la casilla para activarlas
 
 Las ligaduras convierten secuencias como =>, !=, >= en símbolos más legibles.
 
-(/screenshots/Firacode.png)
+![Imagen_Enlace_VSCode9](screenshots/Firacode.png)
 
 ## Cambiar iconos de archivos
 
@@ -165,15 +164,15 @@ F12: Ir a definición
 ## Proceso de instalación:
 
 Dirígete a https://dotnet.microsoft.com/download
-(/screenshots/dotnet1.png)
+![Imagen_Enlace_VSCode10](screenshots/dotnet1.png)
 
 Descarga el SDK de .NET (versión más reciente recomendada)
 
-(/screenshots/dotnet2.png)
+![Imagen_Enlace_VSCode11](screenshots/dotnet2.png)
 
 Ejecuta el instalador y sigue el asistente de instalación
 
-(/screenshots/dotnet3.png)
+![Imagen_Enlace_VSCode12](screenshots/dotnet3.png)
 ## Verificación:
 
 Abre la terminal (PowerShell o CMD) y ejecuta:
@@ -184,7 +183,7 @@ dotnet --version
 
 Deberías ver la versión del SDK instalado (ejemplo: 8.0.100)
 
-(/screenshots/dotnet4.png)
+![Imagen_Enlace_VSCode13](screenshots/dotnet4.png)
 
 ---
 
@@ -202,7 +201,7 @@ Esta extensión instala automáticamente:
 **C#**: Soporte base del lenguaje (IntelliSense, sintaxis)
 **C# Dev Kit**: Gestión de proyectos, debugging y navegación de código
 
-(screenshots/dotnet5.png)
+![Imagen_Enlace_VSCode14](screenshots/dotnet5.png)
 **Verificación de extensiones instaladas**:
 
 Confirma que ambas extensiones están activas en el panel de extensiones (aparecerán con un checkmark verde).
@@ -788,4 +787,4 @@ El panel VARIABLES muestra el valor de todas las variables
 Puedes expandir listas, diccionarios y objetos
 Usa WATCH para observar expresiones específicas
 
-(/screenshots/vscode_python_variables.png)
+![Imagen_Enlace_VSCode15](screenshots/vscode_python_variables.png)

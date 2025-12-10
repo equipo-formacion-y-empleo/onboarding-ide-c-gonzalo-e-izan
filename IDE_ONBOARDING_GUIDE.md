@@ -16,20 +16,20 @@
 
 **Método de instalación:** Para comenzar con la instalación debemos buscar en nuestro navegador la página de Visual Studio Code, una vez dentro seleccionamos la opción "Download for Windows"
 
-(screenshots/VSCode_enlace.png) 
-(screenshots/VSCode_SistemaOperativo.png)
-(screenshots/VSCode_Archivo.png)
+(/screenshots/VSCode_enlace.png) 
+(/screenshots/VSCode_SistemaOperativo.png)
+(/screenshots/VSCode_Archivo.png)
 **Proceso de instalación:**
 - **Descarga:** En cuanto tengamos el archivo de descarga le seleccionamos y abrimos el instalador
 - **Opciones del instalador:** Lo primero que tenemos que aceptar es la licencia y le damos a "Next", luego seleccionar la carpeta de destino que puedes dejar la ubicación predeterminada o seleccionar una carpeta diferente donde quieras instalar VS Code. Haz clic en "Next", luego seleccionamos los componentes que queremos agregar en este caso agregamos el path y crear un acceso directo en el escritorio.
 
 Agregar al PATH: Esto permite abrir VS Code desde la línea de comandos.Ahora damos a install y comenzara la instalacion de vs code.
 
-(screenshots/VSCode_Terminos.png)  
-(screenshots/VSCode_Terminos1.png)  
-(screenshots/VSCode_Terminos2.png)
-(screenshots/VSCode_Terminos4.png)
-(screenshots/VSCode_Terminos5.png)
+(/screenshots/VSCode_Terminos.png)  
+(/screenshots/VSCode_Terminos1.png)  
+(/screenshots/VSCode_Terminos2.png)
+(/screenshots/VSCode_Terminos4.png)
+(/screenshots/VSCode_Terminos5.png)
 
 ---
 
@@ -41,7 +41,7 @@ Haz clic en File > Open Folder (o presiona Ctrl + K, Ctrl + O)
 Navega hasta la carpeta de tu proyecto
 Selecciona la carpeta y haz clic en "Seleccionar carpeta"
 
-(screenshots/VSBarralateral.png)
+(/screenshots/VSBarralateral.png)
 
 **Crear un nuevo archivo**:
 
@@ -87,7 +87,7 @@ Usa las flechas del teclado para previsualizar cada tema en tiempo real
 Selecciona "One Dark Pro" o "Material Theme" (recomendados)
 Presiona Enter para aplicar el tema
 
-(screenshots/temas_Completos.png)
+(/screenshots/temas_Completos.png)
 
 **Resultado final**:
 
@@ -114,7 +114,7 @@ Busca "font ligatures" y marca la casilla para activarlas
 
 Las ligaduras convierten secuencias como =>, !=, >= en símbolos más legibles.
 
-(screenshots/Firacode.png)
+(/screenshots/Firacode.png)
 
 ## Cambiar iconos de archivos
 
@@ -161,15 +161,15 @@ F12: Ir a definición
 ## Proceso de instalación:
 
 Dirígete a https://dotnet.microsoft.com/download
-(screenshots/dotnet1.png)
+(/screenshots/dotnet1.png)
 
 Descarga el SDK de .NET (versión más reciente recomendada)
 
-(screenshots/dotnet2.png)
+(/screenshots/dotnet2.png)
 
 Ejecuta el instalador y sigue el asistente de instalación
 
-(screenshots/dotnet3.png)
+(/screenshots/dotnet3.png)
 ## Verificación:
 
 Abre la terminal (PowerShell o CMD) y ejecuta:
@@ -180,7 +180,7 @@ dotnet --version
 
 Deberías ver la versión del SDK instalado (ejemplo: 8.0.100)
 
-(screenshots/dotnet4.png)
+(/screenshots/dotnet4.png)
 
 ---
 
@@ -784,4 +784,4 @@ El panel VARIABLES muestra el valor de todas las variables
 Puedes expandir listas, diccionarios y objetos
 Usa WATCH para observar expresiones específicas
 
-screenshots/vscode_python_variables.png
+(/screenshots/vscode_python_variables.png)

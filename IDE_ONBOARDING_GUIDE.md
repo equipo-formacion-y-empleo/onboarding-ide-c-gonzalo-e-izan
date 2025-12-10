@@ -16,20 +16,22 @@
 
 **Método de instalación:** Para comenzar con la instalación debemos buscar en nuestro navegador la página de Visual Studio Code, una vez dentro seleccionamos la opción "Download for Windows"
 
-(/screenshots/VSCode_enlace.png) 
-(/screenshots/VSCode_SistemaOperativo.png)
-(/screenshots/VSCode_Archivo.png)
+![Imagen_Enlace_VSCode7](screenshots/VSCode_enlace.png) 
+![Imagen_Enlace_VSCode6](screenshots/VSCode_SistemaOperativo.png)
+![Imagen_Enlace_VSCode0](screenshots/VSCode_Archivo.png)
 **Proceso de instalación:**
 - **Descarga:** En cuanto tengamos el archivo de descarga le seleccionamos y abrimos el instalador
 - **Opciones del instalador:** Lo primero que tenemos que aceptar es la licencia y le damos a "Next", luego seleccionar la carpeta de destino que puedes dejar la ubicación predeterminada o seleccionar una carpeta diferente donde quieras instalar VS Code. Haz clic en "Next", luego seleccionamos los componentes que queremos agregar en este caso agregamos el path y crear un acceso directo en el escritorio.
 
 Agregar al PATH: Esto permite abrir VS Code desde la línea de comandos.Ahora damos a install y comenzara la instalacion de vs code.
 
-(/screenshots/VSCode_Terminos.png)  
-(/screenshots/VSCode_Terminos1.png)  
-(/screenshots/VSCode_Terminos2.png)
-(/screenshots/VSCode_Terminos4.png)
-(/screenshots/VSCode_Terminos5.png)
+![Imagen_Enlace_VSCode1](screenshots/VSCode_Terminos.png)  
+![Imagen_Enlace_VSCode2](screenshots/VSCode_Terminos1.png)  
+![Imagen_Enlace_VSCode3](screenshots/VSCode_Terminos2.png)
+
+![Imagen_Enlace_VSCode4](screenshots/VSCode_Terminos4.png)
+
+![Imagen_Enlace_VSCode5](screenshots/VSCode_Terminos5.png)
 
 ---
 

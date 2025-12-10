@@ -16,57 +16,20 @@
 
 **Método de instalación:** Para comenzar con la instalación debemos buscar en nuestro navegador la página de Visual Studio Code, una vez dentro seleccionamos la opción "Download for Windows"
 
-(screenshots/VSCode_enlace.png)  
-(screenshots/VSC_SO.png)
-
+(screenshots/VSCode_enlace.png) 
+(screenshots/VSCode_SistemaOperativo.png)
+(screenshots/VSCode_Archivo.png)
 **Proceso de instalación:**
 - **Descarga:** En cuanto tengamos el archivo de descarga le seleccionamos y abrimos el instalador
 - **Opciones del instalador:** Lo primero que tenemos que aceptar es la licencia y le damos a "Next", luego seleccionar la carpeta de destino que puedes dejar la ubicación predeterminada o seleccionar una carpeta diferente donde quieras instalar VS Code. Haz clic en "Next", luego seleccionamos los componentes que queremos agregar en este caso agregamos el path y crear un acceso directo en el escritorio.
 
 Agregar al PATH: Esto permite abrir VS Code desde la línea de comandos.Ahora damos a install y comenzara la instalacion de vs code.
 
-(screenshots/VSC1.png)  
-(screenshots/VSC2.png)  
-(screenshots/VSC3.png)  
-(screenshots/VSC4.png)  
-(screenshots/VSC5.png)
-
----
-
-## Visual Studio Code
-
-# Instalación y Verificación
-
-# Método de instalación:
-
-Abre tu navegador y dirígete a https://code.visualstudio.com/
-Haz clic en el botón "Download for Windows"
-
-Mostrar imagen
-
-## Proceso de instalación:
-
-**Descarga el instalador**: Ejecuta el archivo .exe descargado
-**Acepta la licencia**: Lee y acepta los términos, luego haz clic en "Next"
-**Selecciona la ubicación**: Mantén la ruta predeterminada o elige una carpeta personalizada
-**Configura las opciones adicionales**:
-
-✅ Marca "Add to PATH" (permite abrir VS Code desde la terminal)
-✅ Marca "Create a desktop icon" (crea acceso directo en el escritorio)
-
-Haz clic en "Install" y espera a que finalice la instalación
-
-Mostrar imagen  
-Mostrar imagen  
-Mostrar imagen
-
-**Verificación de la instalación**:
-
-Abre VS Code desde el acceso directo del escritorio
-Verifica que la interfaz se cargue correctamente
-Abre la terminal integrada con Ctrl + ñ o Ctrl + 
-Ejecuta el comando: `code --version`
-Deberías ver la versión instalada
+(screenshots/VSCode_Terminos.png)  
+(screenshots/VSCode_Terminos1.png)  
+(screenshots/VSCode_Terminos2.png)
+(screenshots/VSCode_Terminos4.png)
+(screenshots/VSCode_Terminos5.png)
 
 ---
 
@@ -78,7 +41,7 @@ Haz clic en File > Open Folder (o presiona Ctrl + K, Ctrl + O)
 Navega hasta la carpeta de tu proyecto
 Selecciona la carpeta y haz clic en "Seleccionar carpeta"
 
-Mostrar imagen
+(screenshots/VSBarralateral.png)
 
 **Crear un nuevo archivo**:
 
@@ -87,7 +50,6 @@ Selecciona "New File" (o presiona Ctrl + N)
 Escribe el nombre del archivo (ejemplo: Program.cs)
 Presiona Enter
 
-Mostrar imagen
 
 **Editar y guardar código**:
 
@@ -96,7 +58,7 @@ Observa el punto blanco en la pestaña del archivo (indica cambios sin guardar)
 Guarda el archivo con Ctrl + S o File > Save
 El punto blanco desaparece cuando el archivo está guardado
 
-Mostrar imagen
+
 
 **Navegación por la interfaz**:
 
@@ -115,7 +77,7 @@ Vamos a personalizar VS Code para mejorar tu experiencia de desarrollo.
 
 **Estado inicial (tema predeterminado)**:
 
-Mostrar imagen
+
 
 **Pasos para cambiar el tema**:
 
@@ -125,17 +87,17 @@ Usa las flechas del teclado para previsualizar cada tema en tiempo real
 Selecciona "One Dark Pro" o "Material Theme" (recomendados)
 Presiona Enter para aplicar el tema
 
-Mostrar imagen
+(screenshots/temas_Completos.png)
 
 **Resultado final**:
 
-Mostrar imagen
+
 
 ## Configurar fuente con ligaduras (Fira Code)
 
 **Antes de aplicar Fira Code**:
 
-Mostrar imagen
+
 
 **Pasos de instalación**:
 
@@ -146,19 +108,19 @@ Busca "font family"
 Añade 'Fira Code' al inicio de la lista de fuentes
 Busca "font ligatures" y marca la casilla para activarlas
 
-Mostrar imagen
+
 
 **Resultado final (con ligaduras)**:
 
 Las ligaduras convierten secuencias como =>, !=, >= en símbolos más legibles.
 
-Mostrar imagen
+(screenshots/Firacode.png)
 
 ## Cambiar iconos de archivos
 
 **Antes (iconos predeterminados)**:
 
-Mostrar imagen
+
 
 **Pasos**:
 
@@ -167,11 +129,11 @@ Escribe "file icon theme" y selecciona "Preferences: File Icon Theme"
 Elige "Material Icon Theme" o "Seti"
 Los iconos se actualizan inmediatamente
 
-Mostrar imagen
+
 
 **Resultado final**:
 
-Mostrar imagen
+
 
 ## Configuraciones adicionales del editor
 
@@ -199,15 +161,15 @@ F12: Ir a definición
 ## Proceso de instalación:
 
 Dirígete a https://dotnet.microsoft.com/download
+(screenshots/dotnet1.png)
+
 Descarga el SDK de .NET (versión más reciente recomendada)
 
-Mostrar imagen  
-Mostrar imagen
+(screenshots/dotnet2.png)
 
 Ejecuta el instalador y sigue el asistente de instalación
 
-Mostrar imagen
-
+(screenshots/dotnet3.png)
 ## Verificación:
 
 Abre la terminal (PowerShell o CMD) y ejecuta:
@@ -218,7 +180,7 @@ dotnet --version
 
 Deberías ver la versión del SDK instalado (ejemplo: 8.0.100)
 
-Mostrar imagen
+(screenshots/dotnet4.png)
 
 ---
 
@@ -230,15 +192,13 @@ Abre el panel de extensiones con Ctrl + Shift + X
 Busca "C# Dev Kit" en el Marketplace
 Haz clic en "Install" en la extensión oficial de Microsoft
 
-Mostrar imagen
 
 Esta extensión instala automáticamente:
 
 **C#**: Soporte base del lenguaje (IntelliSense, sintaxis)
 **C# Dev Kit**: Gestión de proyectos, debugging y navegación de código
 
-Mostrar imagen
-
+(screenshots/dotnet5.png)
 **Verificación de extensiones instaladas**:
 
 Confirma que ambas extensiones están activas en el panel de extensiones (aparecerán con un checkmark verde).
@@ -258,7 +218,7 @@ Introduce el nombre del proyecto (ejemplo: MiPrimerProyecto)
 Selecciona la carpeta donde guardar el proyecto
 El proyecto se crea automáticamente con la estructura básica
 
-Mostrar imagen
+
 
 **Estructura del proyecto creado**:
 

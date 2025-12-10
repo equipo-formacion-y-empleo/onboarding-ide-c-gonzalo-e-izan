@@ -27,210 +27,649 @@ Agregar al PATH: Esto permite abrir VS Code desde la línea de comandos.Ahora da
 (screenshots/VSC4.png)
 (screenshots/VSC5.png)
 
-- **Verificación:** [Cómo verificar que funciona]
-Para verificar si vs code funciona lo abrimos desde el acceso directo y comprobamos que se puede acceder y modificar diferentes cosas.
+## Visual Studio Code
+# Instalación y Verificación
+# Método de instalación:
 
-### Uso Básico de VS Code
+Abre tu navegador y dirígete a https://code.visualstudio.com/
+Haz clic en el botón "Download for Windows"
 
-**Navegación y funcionalidades básicas:**
-- Navegación por la interfaz: Tenemos la barra lateral en la que encontramos iconos para acceder a la busqueda o extensiones.Tambien tenemos la area de editor que es la zona que se utiliza para editar el codigo.
-- Edición de código: Aqui abrimos un archivo para poder modificar dentro de el su codigo.
-- Uso de la paleta de comandos: Para abrir la paleta presionamos Ctrl+Shift+P y una vez dentro ejecutamos comandos.
-- Gestión de archivos y carpetas: Para poder gestionar archivos arriba a la izquierda tenemos "File" que si lo abrimos nos salen diferentes opciones ya sean para abrir una carpeta o archivo o para crear uno nuevo.
+Mostrar imagen
+## Proceso de instalación:
 
-### Personalización del Entorno
+Descarga el instalador: Ejecuta el archivo .exe descargado
+Acepta la licencia: Lee y acepta los términos, luego haz clic en "Next"
+Selecciona la ubicación: Mantén la ruta predeterminada o elige una carpeta personalizada
+Configura las opciones adicionales:
 
-**Configuraciones aplicadas:** 
+✅ Marca "Add to PATH" (permite abrir VS Code desde la terminal)
+✅ Marca "Create a desktop icon" (crea acceso directo en el escritorio)
 
-**Temas e iconos:**
-Ejemplos:
-- Material Theme, One Dark Pro
-- File Icon Theme para mejor identificación de archivos
 
-**Configuración de fuentes:**
-Ejemplos:
-- Fira Code, JetBrains Mono (con ligaduras)
+Haz clic en "Install" y espera a que finalice la instalación
 
-**Atajos de teclado útiles:**
-Ejemplos:
-- Ctrl+/ para comentar/descomentar
-- Ctrl+Shift+P para paleta de comandos
-- Ctrl+` para terminal integrada
-- Alt+↑/↓ para mover líneas
+Mostrar imagen
+Mostrar imagen
+Mostrar imagen
+Verificación de la instalación:
 
-**Configuración del editor:**
-Ejemplos:
-- Formateo automático al guardar
-- Detección automática de indentación
-- Word wrap para líneas largas
+Abre VS Code desde el acceso directo del escritorio
+Verifica que la interfaz se cargue correctamente
+Abre la terminal integrada con Ctrl + ñ o Ctrl + 
+Ejecuta el comando: code --version
+Deberías ver la versión instalada
 
-**Terminal integrada:**
-Ejemplos:
-- PowerShell como terminal predeterminado
-- Configuración de perfil personalizado
 
-> **Personaliza según tus necesidades**: Estas son sugerencias basadas en prácticas comunes. Experimenta y documenta las configuraciones que encuentres más útiles para tu flujo de trabajo.> 💼 **Manual de Incorporación**: Esta guía establece los estándares del equipo para configurar entornos de desarrollo en C#. Cualquier nuevo desarrollador debe poder seguir estas instrucciones para configurar su entorno de trabajo de manera consistente con el resto del equipo.
+Uso Básico de VS Code
+Abrir una carpeta de proyecto:
 
-### SDK .NET
+Haz clic en File > Open Folder (o presiona Ctrl + K, Ctrl + O)
+Navega hasta la carpeta de tu proyecto
+Selecciona la carpeta y haz clic en "Seleccionar carpeta"
 
-**Proceso de instalación:**
-1. **Descarga e instalación:** Para empezar con el proceso de instalación, primero habrá que dirigirse a la página https://dotnet.microsoft.com/download
-(screenshots/dotnet1.png)
-Descargamos el SDK de .NET
-(screenshots/dotnet2.png)
-Ejecutamos el instalador y procedemos con el asitente 
-(screenshots/dotnet3.png)
-1. **Verificación:** Para comprobar que se ha instalado correctamente debemos abrir la terminal y ejecutar el comando dotnet --version.
-Con este comando debería de aparecer la versión de SDK que se haya instalado.
-(screenshots/dotnet4.png)
-### Configuración para C#
+Mostrar imagen
+Crear un nuevo archivo:
 
-**Extensiones esenciales:**
-- **Soporte oficial para C#**: Extensión que proporciona IntelliSense, debugging y compilación
+Haz clic derecho en el explorador de archivos (barra lateral izquierda)
+Selecciona "New File" (o presiona Ctrl + N)
+Escribe el nombre del archivo (ejemplo: Program.cs)
+Presiona Enter
 
-(screenshots/dotnet5.png)
-**Configuraciones específicas para C#:** 
-C# Microsoft: Extensión base que cuenta con soporte para el lenguaje.
-C# Dev Kit Microsoft: Permitirá gestionar proyectos, Intellinsense, debugging, así como la propia navegación del código.
-(screenshots/dotnet6.png)
-**Debugging básico:**
-- Configuración de puntos de interrupción (breakpoints): Hacer click en el margen izquierdo del editor
-- Ejecutar y depurar: Pulsar la tecla f5 o el icono de run and debug
-- Inspección: Para inspeccionar las variables visibles en el panel lateral, lo cual sirve para ver los valores en el momento.
+Mostrar imagen
+Editar y guardar código:
 
-> **Enfoque práctico**: Las funcionalidades básicas que usaremos en el día a día serán principalmente SDK .NET +VS Code, con el fin de poder compilar, depurar y ejecutar sin tener qie recurrir a la versión complpeta de VS Code.
+Escribe o pega tu código en el editor
+Observa el punto blanco en la pestaña del archivo (indica cambios sin guardar)
+Guarda el archivo con Ctrl + S o File > Save
+El punto blanco desaparece cuando el archivo está guardado
 
-### Flujo de Trabajo con C#
+Mostrar imagen
+Navegación por la interfaz:
 
-**Creación de proyectos:**
-[Documentar el proceso para crear proyectos C#]
+Barra lateral izquierda: Explorador de archivos, búsqueda, control de versiones, extensiones
+Área del editor: Zona principal para editar código (soporta múltiples pestañas)
+Paleta de comandos: Presiona Ctrl + Shift + P para acceder a todos los comandos disponibles
+Terminal integrada: Presiona Ctrl + ñ para abrir/cerrar la terminal
 
-**Estructura de proyecto:**
-```csharp
-sharp
-string ShowMessage(string name)
+
+Personalización del Entorno
+Vamos a personalizar VS Code para mejorar tu experiencia de desarrollo.
+Cambiar el tema de color
+Estado inicial (tema predeterminado):
+Mostrar imagen
+Pasos para cambiar el tema:
+
+Presiona Ctrl + K, Ctrl + T o ve a File > Preferences > Theme > Color Theme
+Aparecerá una lista de temas disponibles
+Usa las flechas del teclado para previsualizar cada tema en tiempo real
+Selecciona "One Dark Pro" o "Material Theme" (recomendados)
+Presiona Enter para aplicar el tema
+
+Mostrar imagen
+Resultado final:
+Mostrar imagen
+Configurar fuente con ligaduras (Fira Code)
+Antes de aplicar Fira Code:
+Mostrar imagen
+Pasos de instalación:
+
+Descarga Fira Code desde https://github.com/tonsky/FiraCode
+Instala la fuente en tu sistema (doble clic en el archivo .ttf > Instalar)
+En VS Code, abre la configuración: Ctrl + , o File > Preferences > Settings
+Busca "font family"
+Añade 'Fira Code' al inicio de la lista de fuentes
+Busca "font ligatures" y marca la casilla para activarlas
+
+Mostrar imagen
+Resultado final (con ligaduras):
+Las ligaduras convierten secuencias como =>, !=, >= en símbolos más legibles.
+Mostrar imagen
+Cambiar iconos de archivos
+Antes (iconos predeterminados):
+Mostrar imagen
+Pasos:
+
+Presiona Ctrl + Shift + P
+Escribe "file icon theme" y selecciona "Preferences: File Icon Theme"
+Elige "Material Icon Theme" o "Seti"
+Los iconos se actualizan inmediatamente
+
+Mostrar imagen
+Resultado final:
+Mostrar imagen
+Configuraciones adicionales del editor
+Abre la configuración con Ctrl + , y aplica estos ajustes:
+
+Format On Save: Busca "format on save" y marca la casilla (el código se formatea automáticamente al guardar)
+Word Wrap: Busca "word wrap" y selecciona "on" (las líneas largas se ajustan sin scroll horizontal)
+Auto Save: Busca "auto save" y selecciona "afterDelay" (guarda automáticamente después de 1 segundo)
+
+Mostrar imagen
+Atajos de teclado útiles:
+
+Ctrl + /: Comentar/descomentar líneas
+Ctrl + Shift + P: Abrir paleta de comandos
+Ctrl + ñ: Abrir/cerrar terminal integrada
+Alt + ↑/↓: Mover líneas hacia arriba/abajo
+Ctrl + D: Seleccionar siguiente coincidencia
+F12: Ir a definición
+
+
+SDK .NET
+Proceso de instalación:
+
+Dirígete a https://dotnet.microsoft.com/download
+Descarga el SDK de .NET (versión más reciente recomendada)
+
+Mostrar imagen
+Mostrar imagen
+
+Ejecuta el instalador y sigue el asistente de instalación
+
+Mostrar imagen
+Verificación:
+Abre la terminal (PowerShell o CMD) y ejecuta:
+bashdotnet --version
+Deberías ver la versión del SDK instalado (ejemplo: 8.0.100)
+Mostrar imagen
+
+Configuración para C#
+Extensiones esenciales:
+
+Abre el panel de extensiones con Ctrl + Shift + X
+Busca "C# Dev Kit" en el Marketplace
+Haz clic en "Install" en la extensión oficial de Microsoft
+
+Mostrar imagen
+Esta extensión instala automáticamente:
+
+C#: Soporte base del lenguaje (IntelliSense, sintaxis)
+C# Dev Kit: Gestión de proyectos, debugging y navegación de código
+
+Mostrar imagen
+Verificación de extensiones instaladas:
+Confirma que ambas extensiones están activas en el panel de extensiones (aparecerán con un checkmark verde).
+
+Flujo de Trabajo con C#
+Creación de un proyecto desde VS Code
+Usando la interfaz de C# Dev Kit:
+
+Presiona Ctrl + Shift + P para abrir la paleta de comandos
+Escribe ".NET: New Project" y selecciona la opción
+Elige "Console App" de la lista de plantillas
+Introduce el nombre del proyecto (ejemplo: MiPrimerProyecto)
+Selecciona la carpeta donde guardar el proyecto
+El proyecto se crea automáticamente con la estructura básica
+
+Mostrar imagen
+Estructura del proyecto creado:
+MiPrimerProyecto/
+├── Program.cs          # Archivo principal con el código
+├── MiPrimerProyecto.csproj  # Archivo de configuración del proyecto
+└── obj/                # Archivos temporales de compilación
+Código de ejemplo mejorado
+Reemplaza el contenido de Program.cs con este código:
+csharpnamespace MiPrimerProyecto
 {
-    return $"Hola {Izan}Bienvenido";
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Verificar si se pasaron argumentos
+            if (args.Length == 0)
+            {
+                Console.WriteLine("No se proporcionaron nombres.");
+                Console.WriteLine("Uso: dotnet run <nombre1> <nombre2>");
+                return;
+            }
+
+            // Mostrar mensaje para cada argumento
+            foreach (string nombre in args)
+            {
+                string mensaje = MostrarMensaje(nombre);
+                Console.WriteLine(mensaje);
+            }
+
+            // Esperar entrada del usuario antes de cerrar
+            Console.WriteLine("\nPresiona cualquier tecla para salir...");
+            Console.ReadKey();
+        }
+
+        static string MostrarMensaje(string nombre)
+        {
+            return $"¡Hola {nombre}! Bienvenido al sistema.";
+        }
+    }
 }
-Console.WriteLine(ShowMessage(args.Length > 0 ? args[0] : "Nombre1"));
-Console.WriteLine(ShowMessage(args.Length > 1 ? args[1] : "Nombre2"));
-```
+Mostrar imagen
+Compilación y ejecución desde el IDE
+❌ NO USES comandos de terminal (dotnet build, dotnet run)
+✅ Ejecuta desde el IDE con estos métodos:
+Método 1: Botón Run (Recomendado)
 
-**Compilación y ejecución:**
-Para poder llegar a compilar y ejecutar nuestro código haremos lo siguiente: 
+Observa la parte superior derecha del editor
+Haz clic en el botón ▶️ Run (triángulo verde)
+El programa se compila y ejecuta automáticamente
+La salida aparece en el panel DEBUG CONSOLE
 
--Compilar:
-Abrir la terminal de VS Code (Ctrl + `).
-Abrir la carpeta en la que se encuentre nuestro proyecto
-Una vez hecho esto, ejecutamos el siguiente comando:
- ```
-     dotnet build
-     ```
--Ejecutar
-Una vez hayamos compilado, ejecutaremos este comando para poder ejecutar el código: 
-```
-     dotnet run
-     ```
+Mostrar imagen
+Método 2: Atajo de teclado
 
-**Debugging:**
-Configuración de launch.json: Ajuste y personalización de las opciones de depuración según el proyecto
-Breakpoints: Definición y manejo de puntos de interrupción para detener la ejecución del código
-Watch: Incorporación de expresiones para observar sus valores durante la depuración
-Call Stack: Revisión y navegación por la pila de llamadas para rastrear la ejecución
-Control de ejecución: Comandos para avanzar o retroceder en el flujo (F5, F10, F11, Shift+F11)
-Inspección de variables: Consulta de valores en tiempo real desde el panel de variables o al pasar el cursor
-Console: Evaluación de expresiones y visualización de resultados en la consola de depuración
+Presiona Ctrl + F5 (ejecutar sin depuración)
+O presiona F5 (ejecutar con depuración)
+La aplicación se ejecuta y muestra la salida
 
----
+Salida del programa:
+Mostrar imagen
+¡Hola Izan! Bienvenido al sistema.
+¡Hola María! Bienvenido al sistema.
 
-## Visual Studio - IDE Alternativo
+Presiona cualquier tecla para salir...
+Debugging (Depuración)
+Configurar puntos de interrupción (breakpoints):
 
-### Instalación
+Haz clic en el margen izquierdo del editor (junto al número de línea)
+Aparecerá un punto rojo que indica el breakpoint
+El programa se detendrá en esa línea durante la ejecución
 
-**Proceso de instalación:**
-- **Descarga:** Nos dirigiremos a la página https://visualstudio.microsoft.com/es/ 
-Se podrá escoger entre la versión Professional o Community, dependiendo de si se quiere usar de forma gratuita o con licencia.
-(screenshots/vs1.png)
-- **Componentes necesarios:** En el proceso de instalación seleccionaremos la carga de trabajo:
-Desarrollo de aplicaciones de escritorio con .NET, utilizando C#, Windows Forms, WPF, el SDK de .NET y sus compiladores.
-(screenshots/vs2.png)    
-- **Verificación:** 
-Abrimos Visual Studio.
-Creamos un proyecto C# (por ejemplo, “Aplicación de consola .NET”).
-Si el programa compila y muestra “Hello World”, la instalación se completó correctamente.
-(screenshots/vs3.png)
-### Desarrollo con C#
+Mostrar imagen
+Ejecutar con depuración:
 
-**Creación de proyecto:**
-Abrimos Visual Studio
- Seleccionamos Crear un nuevo proyecto
- Elegimos Amplificación de consola (.NET Core)" como tipo de proyecto
- Configurar el nombre y la ubicación del proyecto
- Hacemos click en "Crear"
-(screenshots/vs4.png)
-(screenshots/vs5.png)
-**Flujo de trabajo básico:**
-Escribir código: Utilizamos el editor para escribir nuestro código en C#.
-Compilar:Presionamos `Ctrl + Shift + B` o seleccionamos “Compilar” en el menú.
-Ejecutar:Presionamos `F5` para ejecutar con depuración o `Ctrl + F5` para hacerlo sin depuración.
-Depuración Usamos puntos de interrupción, inspecciones de variables y otras herramientas de depuración integradas.
+Presiona F5 o haz clic en Run > Start Debugging
+El programa se detiene en el primer breakpoint
+Usa los controles de depuración:
+
+F10: Paso a paso (siguiente línea)
+F11: Entrar en función
+Shift + F11: Salir de función
+F5: Continuar ejecución
 
 
 
-## Configuración de Lenguaje Adicional
+Mostrar imagen
+Inspeccionar variables:
 
-**Lenguaje seleccionado:** Python
-**Justificación:** Python es un lenguaje versátil y fácil de aprender, ideal para desarrollo rápido y prototipado.
+El panel VARIABLES muestra todas las variables visibles
+Pasa el cursor sobre una variable en el código para ver su valor
+Usa el panel WATCH para observar expresiones específicas
 
-### Instalación del Entorno
+Mostrar imagen
+Panel Call Stack:
 
-**Runtime/SDK:**
-- **Descarga e instalación:** Visitar la página oficial https://www.python.org/downloads/
+Muestra la pila de llamadas de funciones
+Útil para rastrear cómo llegaste al punto actual de ejecución
 
-(screenshots/py1.png)
-- **Verificación:**
-  - Abrir terminal y ejecutar: `python --version` o `python3 --version`
-  - Debe mostrar la versión instalada
-### Configuración en VS Code
 
-**Extensiones por lenguaje:**
+Visual Studio - IDE Alternativo
+Instalación
+Proceso de instalación:
 
-*Para Java:*
-- **Paquete completo de Java**: Incluye compilación, debugging y gestión de proyectos
+Dirígete a https://visualstudio.microsoft.com/es/
+Descarga Visual Studio Community (versión gratuita) o Professional (con licencia)
 
-*Para Python:*
-- **Soporte oficial de Python**: Extensión completa con intérprete y debugging
+Mostrar imagen
 
-*Para otros lenguajes:*
-- Busca la extensión oficial del lenguaje que proporcione soporte completo
+Ejecuta el instalador descargado
+Espera a que se cargue el Visual Studio Installer
 
-**Configuraciones específicas aplicadas:**
-[Documentar los ajustes que se realizaron, como configuración del intérprete, formateo automático, linting, etc.]
+Componentes necesarios:
+En la ventana del instalador, selecciona la carga de trabajo:
 
-### Proyecto de Ejemplo
+✅ Desarrollo de escritorio de .NET
 
-**Código desarrollado:**
-```[lenguaje]
-// Código de ejemplo aquí
-// Comentarios explicativos
-```
+Incluye: C#, Windows Forms, WPF, SDK de .NET y compiladores
 
-**Proceso de ejecución:**
-[Describir cómo ejecutar el código]
 
----
 
-## Configuraciones Recomendadas
+Mostrar imagen
 
-**Configuraciones generales:**
-[Documentar configuraciones que se consideran útiles para cualquier desarrollador]
+Haz clic en "Instalar" y espera a que finalice (puede tardar varios minutos)
 
-**Herramientas adicionales:**
-[Extensions, herramientas CLI, o utilidades que se consideran beneficiosas]
+Verificación:
 
-**Solución de problemas comunes:**
-[Problemas frecuentes durante la configuración y sus soluciones]
+Abre Visual Studio desde el menú Inicio
+En la pantalla de bienvenida, haz clic en "Crear un proyecto nuevo"
+Busca y selecciona "Aplicación de consola" (.NET)
+Si puedes crear el proyecto, la instalación fue exitosa
 
-**Recursos útiles:**
-- Enlace [Enlace]: [Descripción]
-- Documentación [Documentación]: [Descripción]
+Mostrar imagen
+
+Desarrollo con C#
+Creación de proyecto
+Pasos para crear un nuevo proyecto:
+
+Abre Visual Studio
+En la pantalla de inicio, haz clic en "Crear un proyecto nuevo"
+En el cuadro de búsqueda, escribe "consola"
+Selecciona "Aplicación de consola" con C# (.NET)
+Haz clic en "Siguiente"
+
+Mostrar imagen
+
+Configurar el proyecto:
+
+Nombre del proyecto: MiProyectoVisualStudio
+Ubicación: Elige la carpeta donde guardarlo
+Nombre de la solución: (se autocompletará)
+
+
+Haz clic en "Crear"
+
+Mostrar imagen
+Visual Studio crea automáticamente el proyecto con un archivo Program.cs básico.
+Código de ejemplo en Visual Studio
+Reemplaza el contenido de Program.cs con este código:
+csharpnamespace MiProyectoVisualStudio
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("=== Sistema de Bienvenida ===\n");
+
+            // Solicitar nombres al usuario
+            Console.Write("Introduce el primer nombre: ");
+            string nombre1 = Console.ReadLine() ?? "Usuario1";
+
+            Console.Write("Introduce el segundo nombre: ");
+            string nombre2 = Console.ReadLine() ?? "Usuario2";
+
+            // Mostrar mensajes de bienvenida
+            Console.WriteLine();
+            MostrarBienvenida(nombre1);
+            MostrarBienvenida(nombre2);
+
+            // Mostrar estadísticas
+            Console.WriteLine($"\nTotal de usuarios registrados: 2");
+            
+            Console.WriteLine("\nPresiona cualquier tecla para salir...");
+            Console.ReadKey();
+        }
+
+        static void MostrarBienvenida(string nombre)
+        {
+            string mensaje = $"¡Hola {nombre}! Bienvenido al sistema.";
+            Console.WriteLine(mensaje);
+            Console.WriteLine($"Tu nombre tiene {nombre.Length} caracteres.");
+        }
+    }
+}
+Mostrar imagen
+Compilación y ejecución desde el IDE
+❌ NO uses Ctrl + Shift + B solo para compilar
+✅ Ejecuta directamente desde el IDE:
+Método 1: Botón de Inicio (Recomendado)
+
+Localiza el botón verde con el triángulo ▶️ en la barra superior
+Al lado verá el nombre del proyecto
+Haz clic en el botón para ejecutar
+
+Mostrar imagen
+Método 2: Atajos de teclado
+
+Presiona F5 - Ejecutar con depuración
+Presiona Ctrl + F5 - Ejecutar sin depuración (recomendado para ver la salida completa)
+
+Método 3: Menú
+
+Ve a Depurar > Iniciar sin depurar (Ctrl + F5)
+
+Salida del programa:
+Al ejecutar con Ctrl + F5, se abre una ventana de consola:
+Mostrar imagen
+=== Sistema de Bienvenida ===
+
+Introduce el primer nombre: Izan
+Introduce el segundo nombre: Laura
+
+¡Hola Izan! Bienvenido al sistema.
+Tu nombre tiene 4 caracteres.
+¡Hola Laura! Bienvenido al sistema.
+Tu nombre tiene 5 caracteres.
+
+Total de usuarios registrados: 2
+
+Presiona cualquier tecla para salir...
+Mostrar imagen
+Debugging en Visual Studio
+Configurar breakpoints:
+
+Haz clic en el margen gris izquierdo (junto a los números de línea)
+Aparece un punto rojo sólido
+Para quitar el breakpoint, vuelve a hacer clic en el punto rojo
+
+Mostrar imagen
+Iniciar depuración:
+
+Presiona F5 o haz clic en el botón ▶️ verde
+El programa se ejecuta y se detiene en el primer breakpoint
+La línea actual se resalta en amarillo
+
+Mostrar imagen
+Controles de depuración:
+
+F10 - Paso a paso por procedimientos (ejecuta la línea actual)
+F11 - Paso a paso por instrucciones (entra en funciones)
+Shift + F11 - Paso a paso para salir (sale de la función actual)
+F5 - Continuar (ejecuta hasta el siguiente breakpoint)
+Shift + F5 - Detener depuración
+
+Mostrar imagen
+Inspeccionar variables:
+
+Ventana Automático: Muestra variables de la línea actual y anteriores
+Ventana Variables locales: Muestra todas las variables del ámbito actual
+Ventana Inspección: Añade expresiones personalizadas para observar
+
+Para abrir estas ventanas: Depurar > Ventanas > [nombre de la ventana]
+Mostrar imagen
+Uso de la ventana Inmediato:
+
+Durante la depuración, ve a Depurar > Ventanas > Inmediato
+Puedes ejecutar código y evaluar expresiones en tiempo real
+Ejemplo: escribe nombre1.ToUpper() y presiona Enter
+
+Mostrar imagen
+
+Configuración de Lenguaje Adicional
+Lenguaje seleccionado: Python
+Justificación: Python es un lenguaje versátil, fácil de aprender e ideal para desarrollo rápido, scripting, análisis de datos y prototipado. Su sintaxis clara lo hace perfecto como segundo lenguaje de referencia.
+Instalación del Entorno Python
+Descarga e instalación:
+
+Visita la página oficial https://www.python.org/downloads/
+Haz clic en "Download Python 3.x.x" (última versión estable)
+
+Mostrar imagen
+
+Ejecuta el instalador descargado
+IMPORTANTE: Marca la casilla "Add Python to PATH"
+Haz clic en "Install Now"
+
+Mostrar imagen
+Verificación:
+Abre la terminal (PowerShell o CMD) y ejecuta:
+bashpython --version
+O en algunos sistemas:
+bashpython3 --version
+Deberías ver la versión instalada (ejemplo: Python 3.12.0)
+Mostrar imagen
+
+Configuración en VS Code para Python
+Instalar la extensión de Python:
+
+Abre VS Code
+Presiona Ctrl + Shift + X para abrir el panel de extensiones
+Busca "Python" en el Marketplace
+Haz clic en "Install" en la extensión oficial de Microsoft
+
+Mostrar imagen
+La extensión incluye:
+
+IntelliSense y autocompletado
+Linting (análisis de código)
+Debugging integrado
+Soporte para Jupyter Notebooks
+Gestión de entornos virtuales
+
+Configurar el intérprete:
+
+Abre un archivo .py o presiona Ctrl + Shift + P
+Escribe "Python: Select Interpreter"
+Selecciona la versión de Python instalada en tu sistema
+
+Mostrar imagen
+Configuraciones recomendadas para Python:
+Abre la configuración (Ctrl + ,) y busca estas opciones:
+
+Python > Linting: Enabled - Activar análisis de código
+Python > Linting: Pylint Enabled - Activar Pylint para detección de errores
+Python > Formatting: Provider - Seleccionar "black" o "autopep8"
+Editor: Format On Save - Formatear automáticamente al guardar
+
+Mostrar imagen
+
+Proyecto de Ejemplo en Python
+Crear un proyecto Python
+
+Crea una nueva carpeta para tu proyecto (ejemplo: ProyectoPython)
+Abre la carpeta en VS Code: File > Open Folder
+Crea un nuevo archivo: haz clic derecho en el explorador > New File
+Nómbralo calculadora.py
+
+Código de ejemplo:
+python# calculadora.py
+"""
+Sistema de calculadora básica con menú interactivo
+Autor: Tu Nombre
+Fecha: 2024
+"""
+
+def suma(a, b):
+    """Suma dos números"""
+    return a + b
+
+def resta(a, b):
+    """Resta dos números"""
+    return a - b
+
+def multiplicacion(a, b):
+    """Multiplica dos números"""
+    return a * b
+
+def division(a, b):
+    """Divide dos números"""
+    if b == 0:
+        return "Error: División por cero"
+    return a / b
+
+def mostrar_menu():
+    """Muestra el menú de opciones"""
+    print("\n=== CALCULADORA ===")
+    print("1. Suma")
+    print("2. Resta")
+    print("3. Multiplicación")
+    print("4. División")
+    print("5. Salir")
+    print("==================")
+
+def main():
+    """Función principal"""
+    while True:
+        mostrar_menu()
+        
+        try:
+            opcion = int(input("\nElige una opción (1-5): "))
+            
+            if opcion == 5:
+                print("¡Hasta luego!")
+                break
+            
+            if opcion < 1 or opcion > 5:
+                print("Opción no válida. Intenta de nuevo.")
+                continue
+            
+            # Solicitar números
+            num1 = float(input("Introduce el primer número: "))
+            num2 = float(input("Introduce el segundo número: "))
+            
+            # Realizar operación
+            if opcion == 1:
+                resultado = suma(num1, num2)
+                print(f"\n{num1} + {num2} = {resultado}")
+            elif opcion == 2:
+                resultado = resta(num1, num2)
+                print(f"\n{num1} - {num2} = {resultado}")
+            elif opcion == 3:
+                resultado = multiplicacion(num1, num2)
+                print(f"\n{num1} × {num2} = {resultado}")
+            elif opcion == 4:
+                resultado = division(num1, num2)
+                print(f"\n{num1} ÷ {num2} = {resultado}")
+                
+        except ValueError:
+            print("\nError: Debes introducir un número válido")
+        except Exception as e:
+            print(f"\nError inesperado: {e}")
+
+if __name__ == "__main__":
+    main()
+Mostrar imagen
+Ejecutar el programa desde VS Code
+Método 1: Botón Run (Recomendado)
+
+Observa la esquina superior derecha del editor
+Haz clic en el botón ▶️ (triángulo verde)
+El programa se ejecuta en la terminal integrada
+
+Mostrar imagen
+Método 2: Clic derecho
+
+Haz clic derecho en cualquier parte del código
+Selecciona "Run Python File in Terminal"
+
+Método 3: Atajo de teclado
+
+Presiona Ctrl + F5 para ejecutar sin depuración
+
+Salida del programa:
+La terminal integrada muestra el programa en ejecución:
+Mostrar imagen
+=== CALCULADORA ===
+1. Suma
+2. Resta
+3. Multiplicación
+4. División
+5. Salir
+==================
+
+Elige una opción (1-5): 1
+Introduce el primer número: 15
+Introduce el segundo número: 7
+
+15.0 + 7.0 = 22.0
+
+=== CALCULADORA ===
+...
+Mostrar imagen
+Debugging en Python
+Configurar breakpoints:
+
+Haz clic en el margen izquierdo junto a la línea donde quieres pausar
+Aparece un punto rojo
+
+Mostrar imagen
+Iniciar depuración:
+
+Presiona F5
+Selecciona "Python File" si es la primera vez
+El programa se detiene en el breakpoint
+
+Mostrar imagen
+Inspeccionar variables:
+
+El panel VARIABLES muestra el valor de todas las variables
+Puedes expandir listas, diccionarios y objetos
+Usa WATCH para observar expresiones específicas
+
+screenshots/vscode_python_variables.png

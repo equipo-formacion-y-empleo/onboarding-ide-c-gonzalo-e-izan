@@ -1,6 +1,6 @@
 # Conclusiones y Evaluación - Entornos de Desarrollo C#
 
-**Autores**: [Nombre 1] y [Nombre 2]
+**Autores**: Gonzalo Guzmán Lazuén e Izan Lastra Herrera
 **Fecha Entrega Inicial**: [Fecha]
 **Fecha Entrega Final**: [Fecha]
 
@@ -14,10 +14,10 @@
 
 | Aspecto | Visual Studio Code | Visual Studio |
 |---------|-------------------|---------------|
-| **Facilidad de instalación** | [Experiencia inicial] | [Experiencia inicial] |
-| **Primera impresión** | [Evaluación] | [Evaluación] |
-| **Configuración básica** | [Observación] | [Observación] |
-| **Soporte para C#** | [Análisis inicial] | [Análisis inicial] |
+| **Facilidad de instalación** | El instalador ocupa poco espacio y el proceso es sencillo | Istalación más larga y pesada. |
+| **Primera impresión** | Interfaz limpia y moderna. | 
+| **Configuración básica** |Requiere instalar extensiones para C#, depuración, y otras funciones | Viene listo para programar en C# y otros lenguajes de Microsoft.|
+| **Soporte para C#** | Muy bueno con extensiones como C# Dev Kit o Omnisharp | Soporte completo e integrado para C# |
 
 ### Preferencia Inicial
 **IDE que se prefiere tras la configuración inicial:** [Visual Studio Code / Visual Studio]

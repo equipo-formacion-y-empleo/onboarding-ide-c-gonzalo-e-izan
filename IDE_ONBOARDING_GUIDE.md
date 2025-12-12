@@ -8,7 +8,7 @@
 **Fecha V0**: [Fecha de entrega inicial]  
 **Fecha V1**: [Fecha de entrega final]
 
----
+
 
 ## Visual Studio Code - Entorno Principal
 
@@ -34,7 +34,7 @@ Agregar al PATH: Esto permite abrir VS Code desde la línea de comandos.Ahora da
 ![Imagen_Enlace_VSCode4](screenshots/VSCode_Terminos4.png)
 
 
----
+
 
 # Uso Básico de VS Code
 
@@ -70,7 +70,7 @@ El punto blanco desaparece cuando el archivo está guardado
 **Paleta de comandos**: Presiona Ctrl + Shift + P para acceder a todos los comandos disponibles
 **Terminal integrada**: Presiona Ctrl + ñ para abrir/cerrar la terminal
 
----
+
 
 # Personalización del Entorno
 
@@ -94,7 +94,7 @@ Presiona Enter para aplicar el tema
 
 **Resultado final**:
 
-
+![Imagen_Enlace_VSCode8](screenshots/rf.png)
 
 ## Configurar fuente con ligaduras (Fira Code)
 
@@ -132,11 +132,11 @@ Escribe "file icon theme" y selecciona "Preferences: File Icon Theme"
 Elige "Material Icon Theme" o "Seti"
 Los iconos se actualizan inmediatamente
 
-
+![Imagen_Enlace_VSCode9](screenshots/seti.png)
 
 **Resultado final**:
 
-
+![Imagen_Enlace_VSCode9](screenshots/rf1.png)
 
 ## Configuraciones adicionales del editor
 
@@ -145,8 +145,6 @@ Abre la configuración con Ctrl + , y aplica estos ajustes:
 **Format On Save**: Busca "format on save" y marca la casilla (el código se formatea automáticamente al guardar)
 **Word Wrap**: Busca "word wrap" y selecciona "on" (las líneas largas se ajustan sin scroll horizontal)
 **Auto Save**: Busca "auto save" y selecciona "afterDelay" (guarda automáticamente después de 1 segundo)
-
-Mostrar imagen
 
 **Atajos de teclado útiles**:
 
@@ -157,7 +155,7 @@ Alt + ↑/↓: Mover líneas hacia arriba/abajo
 Ctrl + D: Seleccionar siguiente coincidencia
 F12: Ir a definición
 
----
+
 
 # SDK .NET
 
@@ -185,7 +183,7 @@ Deberías ver la versión del SDK instalado (ejemplo: 8.0.100)
 
 ![Imagen_Enlace_VSCode13](screenshots/dotnet4.png)
 
----
+
 
 # Configuración para C#
 
@@ -206,7 +204,7 @@ Esta extensión instala automáticamente:
 
 Confirma que ambas extensiones están activas en el panel de extensiones (aparecerán con un checkmark verde).
 
----
+
 
 # Flujo de Trabajo con C#
 
@@ -271,7 +269,7 @@ namespace MiPrimerProyecto
 }
 ```
 
-Mostrar imagen
+
 
 ## Compilación y ejecución desde el IDE
 
@@ -285,7 +283,7 @@ Haz clic en el botón ▶️ Run (triángulo verde)
 El programa se compila y ejecuta automáticamente
 La salida aparece en el panel DEBUG CONSOLE
 
-Mostrar imagen
+
 
 ### Método 2: Atajo de teclado
 
@@ -295,7 +293,7 @@ La aplicación se ejecuta y muestra la salida
 
 **Salida del programa**:
 
-Mostrar imagen
+
 
 ```
 ¡Hola Izan! Bienvenido al sistema.
@@ -304,7 +302,7 @@ Mostrar imagen
 Presiona cualquier tecla para salir...
 ```
 
-Mostrar imagen
+
 
 ## Debugging (Depuración)
 
@@ -314,7 +312,7 @@ Haz clic en el margen izquierdo del editor (junto al número de línea)
 Aparecerá un punto rojo que indica el breakpoint
 El programa se detendrá en esa línea durante la ejecución
 
-Mostrar imagen
+
 
 **Ejecutar con depuración**:
 
@@ -327,7 +325,7 @@ Usa los controles de depuración:
 - Shift + F11: Salir de función
 - F5: Continuar ejecución
 
-Mostrar imagen
+
 
 **Inspeccionar variables**:
 
@@ -335,14 +333,14 @@ El panel VARIABLES muestra todas las variables visibles
 Pasa el cursor sobre una variable en el código para ver su valor
 Usa el panel WATCH para observar expresiones específicas
 
-Mostrar imagen
+
 
 **Panel Call Stack**:
 
 Muestra la pila de llamadas de funciones
 Útil para rastrear cómo llegaste al punto actual de ejecución
 
----
+
 
 # Visual Studio - IDE Alternativo
 
@@ -353,7 +351,7 @@ Muestra la pila de llamadas de funciones
 Dirígete a https://visualstudio.microsoft.com/es/
 Descarga Visual Studio Community (versión gratuita) o Professional (con licencia)
 
-Mostrar imagen
+
 
 Ejecuta el instalador descargado
 Espera a que se cargue el Visual Studio Installer
@@ -366,7 +364,7 @@ En la ventana del instalador, selecciona la carga de trabajo:
 
 Incluye: C#, Windows Forms, WPF, SDK de .NET y compiladores
 
-Mostrar imagen
+
 
 Haz clic en "Instalar" y espera a que finalice (puede tardar varios minutos)
 
@@ -377,9 +375,9 @@ En la pantalla de bienvenida, haz clic en "Crear un proyecto nuevo"
 Busca y selecciona "Aplicación de consola" (.NET)
 Si puedes crear el proyecto, la instalación fue exitosa
 
-Mostrar imagen
 
----
+
+
 
 # Desarrollo con C#
 
@@ -393,7 +391,7 @@ En el cuadro de búsqueda, escribe "consola"
 Selecciona "Aplicación de consola" con C# (.NET)
 Haz clic en "Siguiente"
 
-Mostrar imagen
+
 
 **Configurar el proyecto**:
 
@@ -403,7 +401,7 @@ Mostrar imagen
 
 Haz clic en "Crear"
 
-Mostrar imagen
+
 
 Visual Studio crea automáticamente el proyecto con un archivo Program.cs básico.
 
@@ -449,7 +447,7 @@ namespace MiProyectoVisualStudio
 }
 ```
 
-Mostrar imagen
+
 
 ## Compilación y ejecución desde el IDE
 
@@ -462,7 +460,7 @@ Localiza el botón verde con el triángulo ▶️ en la barra superior
 Al lado verá el nombre del proyecto
 Haz clic en el botón para ejecutar
 
-Mostrar imagen
+
 
 ### Método 2: Atajos de teclado
 
@@ -477,7 +475,7 @@ Ve a Depurar > Iniciar sin depurar (Ctrl + F5)
 
 Al ejecutar con Ctrl + F5, se abre una ventana de consola:
 
-Mostrar imagen
+
 
 ```
 === Sistema de Bienvenida ===
@@ -495,7 +493,7 @@ Total de usuarios registrados: 2
 Presiona cualquier tecla para salir...
 ```
 
-Mostrar imagen
+
 
 ## Debugging en Visual Studio
 
@@ -505,7 +503,7 @@ Haz clic en el margen gris izquierdo (junto a los números de línea)
 Aparece un punto rojo sólido
 Para quitar el breakpoint, vuelve a hacer clic en el punto rojo
 
-Mostrar imagen
+
 
 **Iniciar depuración**:
 
@@ -513,7 +511,7 @@ Presiona F5 o haz clic en el botón ▶️ verde
 El programa se ejecuta y se detiene en el primer breakpoint
 La línea actual se resalta en amarillo
 
-Mostrar imagen
+
 
 **Controles de depuración**:
 
@@ -523,7 +521,7 @@ Shift + F11 - Paso a paso para salir (sale de la función actual)
 F5 - Continuar (ejecuta hasta el siguiente breakpoint)
 Shift + F5 - Detener depuración
 
-Mostrar imagen
+
 
 **Inspeccionar variables**:
 
@@ -533,7 +531,7 @@ Mostrar imagen
 
 Para abrir estas ventanas: Depurar > Ventanas > [nombre de la ventana]
 
-Mostrar imagen
+
 
 **Uso de la ventana Inmediato**:
 
@@ -541,9 +539,9 @@ Durante la depuración, ve a Depurar > Ventanas > Inmediato
 Puedes ejecutar código y evaluar expresiones en tiempo real
 Ejemplo: escribe nombre1.ToUpper() y presiona Enter
 
-Mostrar imagen
 
----
+
+
 
 # Configuración de Lenguaje Adicional
 
@@ -558,13 +556,13 @@ Mostrar imagen
 Visita la página oficial https://www.python.org/downloads/
 Haz clic en "Download Python 3.x.x" (última versión estable)
 
-Mostrar imagen
+
 
 Ejecuta el instalador descargado
 **IMPORTANTE**: Marca la casilla "Add Python to PATH"
 Haz clic en "Install Now"
 
-Mostrar imagen
+
 
 **Verificación**:
 
@@ -582,9 +580,9 @@ python3 --version
 
 Deberías ver la versión instalada (ejemplo: Python 3.12.0)
 
-Mostrar imagen
 
----
+
+
 
 ## Configuración en VS Code para Python
 
@@ -595,7 +593,7 @@ Presiona Ctrl + Shift + X para abrir el panel de extensiones
 Busca "Python" en el Marketplace
 Haz clic en "Install" en la extensión oficial de Microsoft
 
-Mostrar imagen
+
 
 La extensión incluye:
 
@@ -611,7 +609,7 @@ Abre un archivo .py o presiona Ctrl + Shift + P
 Escribe "Python: Select Interpreter"
 Selecciona la versión de Python instalada en tu sistema
 
-Mostrar imagen
+
 
 **Configuraciones recomendadas para Python**:
 
@@ -622,9 +620,9 @@ Abre la configuración (Ctrl + ,) y busca estas opciones:
 **Python > Formatting: Provider** - Seleccionar "black" o "autopep8"
 **Editor: Format On Save** - Formatear automáticamente al guardar
 
-Mostrar imagen
 
----
+
+
 
 ## Proyecto de Ejemplo en Python
 
@@ -716,7 +714,7 @@ if __name__ == "__main__":
     main()
 ```
 
-Mostrar imagen
+
 
 ## Ejecutar el programa desde VS Code
 
@@ -726,7 +724,7 @@ Observa la esquina superior derecha del editor
 Haz clic en el botón ▶️ (triángulo verde)
 El programa se ejecuta en la terminal integrada
 
-Mostrar imagen
+
 
 ### Método 2: Clic derecho
 
@@ -741,7 +739,7 @@ Presiona Ctrl + F5 para ejecutar sin depuración
 
 La terminal integrada muestra el programa en ejecución:
 
-Mostrar imagen
+
 
 ```
 === CALCULADORA ===
@@ -762,7 +760,7 @@ Introduce el segundo número: 7
 ...
 ```
 
-Mostrar imagen
+
 
 ## Debugging en Python
 
@@ -771,7 +769,7 @@ Mostrar imagen
 Haz clic en el margen izquierdo junto a la línea donde quieres pausar
 Aparece un punto rojo
 
-Mostrar imagen
+
 
 **Iniciar depuración**:
 
@@ -779,7 +777,7 @@ Presiona F5
 Selecciona "Python File" si es la primera vez
 El programa se detiene en el breakpoint
 
-Mostrar imagen
+
 
 **Inspeccionar variables**:
 
